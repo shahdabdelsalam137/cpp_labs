@@ -25,7 +25,7 @@ void magicBoxOdd(int n) {
 
     for (int i = 1; i <= n * n; i++) {
           goToXY(col * 4 + 1, row + 1);
-          std::cout<<std::setw(3)<<i;
+          std::cout<<i;
           std::cout.flush();
         delay(200);
         MovePosIndex(row, col, n, i);
